@@ -132,7 +132,7 @@ private:
 
   Pipe_t *_rx_pipe{ nullptr };
 
-  using device_state = std::array<char, 38>;
+  using device_state = std::array<unsigned char, 38>;
 
   device_state _current_state{};
   device_state _old_state{};
