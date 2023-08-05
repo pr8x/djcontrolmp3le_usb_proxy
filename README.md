@@ -13,7 +13,9 @@ The Hercules DJControl MP3 LE Controller is not compatible with modern versions 
 
 ## MIDI Mapping
 
-Since the MIDI notes/controls sent by the proxy device do not follow any standard it will be required to create a custom mapping for it in your DJ software. There should be plenty of tutorials out there on how to do that with (for instance) rekordbox, VirtualDJ or Traktor PRO.
+Since the MIDI notes/controls sent by the proxy device do not follow any standard it will be required to create a custom mapping for it in your DJ software. There should be plenty of tutorials out there on how to do that with (for instance) rekordbox, VirtualDJ or Traktor PRO. I created some basic mappings for demonstration:
+
+- [Traktor Pro](traktor_pro_mappings.tsi)
 
 ## Credits
 
