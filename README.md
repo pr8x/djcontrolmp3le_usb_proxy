@@ -1,6 +1,6 @@
 ## What is this?
 
-The Hercules DJControl MP3 LE Controller is not compatible with modern versions of Windows or Mac anymore. This is due to an error in the USB endpoint descriptor sent by the device. To fix this I created some kind of USB "proxy" device using a Teensy 4.1 that communicates with the controller via its USB Host port and reinterprets its custom binary protocol into class-compliant MIDI. Conveniently, this also removes the needs for installing any Hercules drivers on the host machine.
+The Hercules DJControl MP3 LE Controller is not compatible with modern versions of Windows or Mac anymore. This is due to an error in the USB endpoint descriptor sent by the device. To fix this I created some kind of USB "proxy" device using a Teensy 4.1 that communicates with the controller via its USB Host port and reinterprets its custom binary protocol into class-compliant MIDI. Conveniently, this also removes the need for installing any Hercules drivers on the host machine.
 
 ![Image](https://github.com/pr8x/djcontrolmp3le_usb_proxy/assets/4670166/413bc077-675b-48e9-9215-00679ad7af42)
 
