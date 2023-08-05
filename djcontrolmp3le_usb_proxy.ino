@@ -235,7 +235,7 @@ void setup() {
 
         if (newState == 1) {
           Serial.printf("MIDI: Note %d ON\n", note);
-          usbMIDI.sendNoteOn(note, 99, MidiChannel);
+          usbMIDI.sendNoteOn(note, 100, MidiChannel);
         } else {
           Serial.printf("MIDI: Note %d OFF\n", note);
           usbMIDI.sendNoteOff(note, 0, MidiChannel);
