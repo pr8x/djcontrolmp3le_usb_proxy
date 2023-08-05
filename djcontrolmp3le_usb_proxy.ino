@@ -242,6 +242,9 @@ void setup() {
         }
 
       } else {
+        //MIDI can only represent 0-128
+        newState /= 2;
+
         Serial.printf("MIDI: Control change: %d -> %u\n", controlIndex, newState);
         usbMIDI.sendControlChange(controlIndex, newState, 1);
       }
