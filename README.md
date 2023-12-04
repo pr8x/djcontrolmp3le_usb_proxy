@@ -6,6 +6,7 @@ The Hercules DJControl MP3 LE Controller is not compatible with modern versions 
 
 ## How to install 
 
+- (Solder T4.1 USB Host pins and connect a [USB Host Cable](https://www.pjrc.com/store/cable_usb_host_t36.html) to them)
 - Follow the [official instructions](https://www.pjrc.com/teensy/td_download.html) for installing Teensyduino
 - Clone this repro and open it in the Arduino IDE
 - Make sure to select "USB Type: MIDI" (or optionally "USB Type: MIDI + Serial" for serial debug) in the Tools menu
